@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/skins/pink.css" type="text/css" />
+    <!-- Live Style Switcher -->
+    <link
+      rel="stylesheet"
+      class="alternate-style"
+      title="pink"
+      href="css/skins/pink.css"
+      type="text/css"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      class="alternate-style"
+      title="blue"
+      href="css/skins/blue.css"
+      type="text/css"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      class="alternate-style"
+      title="orange"
+      href="css/skins/orange.css"
+      type="text/css"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      class="alternate-style"
+      title="yellow"
+      href="css/skins/yellow.css"
+      type="text/css"
+      disabled
+    />
+    <link
+      rel="stylesheet"
+      class="alternate-style"
+      title="green"
+      href="css/skins/green.css"
+      type="text/css"
+      disabled
+    />
+    <link rel="stylesheet" href="css/styleSwitcher.css" type="text/css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- Aside -->
+      <div class="aside">
+        <!-- Logo -->
+        <div class="logo">
+          <a href="#">Aurora</a>
+        </div>
+        <!-- Nav Toggle Button -->
+        <div class="nav-toggler">
+          <span></span>
+        </div>
+        <!-- Nav -->
+        <ul class="nav">
+          <li>
+            <a href="home.html" class="active"><i class="fa fa-home"></i> Home</a>
+          </li>
+          <li>
+            <a href="about.html"><i class="fa fa-user"></i> About</a>
+          </li>
+          <li>
+            <a href="service.html"><i class="fa fa-list"></i> Service</a>
+          </li>
+          <li>
+            <a href="portfolio.html"><i class="fa fa-briefcase"></i> Portfolio</a>
+          </li>
+          <li>
+            <a href="blog.html"><i class="fa fa-envelope"></i> Blog</a>
+          </li>
+          <li>
+            <a href="contact.html"><i class="fa fa-comments"></i> Contact</a>
+          </li>
+        </ul>
+        <!-- Copyright -->
+        <div class="copyright-text">
+          &copy; 2020 Cong Dao Minh Uyen
+        </div>
+      </div>
+      <!-- Aside End -->
+      <div class="main-content">
+        <!-- Home Section -->
+        <section class="home section">
+          <div class="container">
+            <div class="intro">
+              <img src="images/about.jpg" alt="profile" class="shadow-dark" />
+              <h1>Cong Dao Minh Uyen</h1>
+              <p>I'm a Web developer</p>
+
+              <div class="social-link">
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Home Section End -->
+      </div>
+    </div>
+
+    <!-- Live Style Switcher  -->
+    <div class="style-switcher">
+      <div class="toggle-style-switcher">
+        <i class="fa fa-cog fa-spin"></i>
+      </div>
+      <h5>Style Switcher</h5>
+      <ul>
+        <li>
+          <a
+            href="javascript:void(0);"
+            title="pink"
+            style="background-color: #ec1839;"
+            onclick="setActiveStyle('pink')"
+          ></a>
+        </li>
+        <li>
+          <a
+            href="javascript:void(0);"
+            title="orange"
+            style="background-color: #fa5b0f;"
+            onclick="setActiveStyle('orange')"
+          ></a>
+        </li>
+        <li>
+          <a
+            href="javascript:void(0);"
+            title="blue"
+            style="background-color: #2196f3;"
+            onclick="setActiveStyle('blue')"
+          ></a>
+        </li>
+        <li>
+          <a
+            href="javascript:void(0);"
+            title="yellow"
+            style="background-color: #ffb400;"
+            onclick="setActiveStyle('yellow')"
+          ></a>
+        </li>
+        <li>
+          <a
+            href="javascript:void(0);"
+            title="green"
+            style="background-color: #72b626;"
+            onclick="setActiveStyle('green')"
+          ></a>
+        </li>
+      </ul>
+    </div>
+    <!-- Live Style Switcher End -->
+
+    <!-- Template Script -->
+    <script src="js/script.js"></script>
+
+    <!-- Live Style Switcher js -->
+    <script src="js/styleSwitcher.js"></script>
+  </body>
+</html>
